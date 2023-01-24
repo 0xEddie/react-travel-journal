@@ -7,7 +7,7 @@ export default function Card(props) {
             <div className="card--info">
                 <div className="card--location">
                     <img src="/src/assets/location-pin.png" />
-                    <p className="card--country">{props.location.toUpperCase()}</p>
+                    <h4 className="card--country">{props.location.toUpperCase()}</h4>
                     <a className="card--gmapsUrl" href="{props.googleMapsUrl}">View on Google Maps</a>
                 </div>
                 <h2>{props.title}</h2>
