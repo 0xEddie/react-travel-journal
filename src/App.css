@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  background: #f55a5a;
+  display: flex;
+  height: 55px;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav--logo {
+  display: inline;
+  fill: #ffffff;
+  /* margin-right: 7px; */
+  margin: auto 7px auto;
+  padding-top: 4px;
+}
+
+nav > div,
+nav > div > div,
+nav svg {
+  display: inline;
+}
+
+nav h3 {
+  display: inline;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.4608px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+  /* padding-bottom: 4px; */
+}

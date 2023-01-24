@@ -1,3 +1,4 @@
 {
-  "extends": ["wesbos"]
+  "extends": ["wesbos"],
+  "import/no-extraneous-dependencies": ["error", { "devDependencies": true }]
 }

@@ -1,10 +1,12 @@
 import './App.css';
+import Navbar from './components/Navbar';
 
 function App() {
-  const apple = () => null;
-  console.log(apple);
-
-  return <div className="App" />;
+  return (
+    <div className="app">
+      <Navbar />
+    </div>
+  );
 }
 
 export default App;
